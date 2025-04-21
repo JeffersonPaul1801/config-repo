@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: operations-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/operationsdb
+
+logging:
+  level:
+    root: INFO

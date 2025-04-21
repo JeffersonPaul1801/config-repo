@@ -3,10 +3,10 @@ server:
 
 spring:
   application:
-    name: transactions-service
+    name: movementBank-service
   data:
     mongodb:
-      uri: mongodb://localhost:27017/transactionsdb
+      uri: mongodb://localhost:27017/movementBanksdb
 
 logging:
   level:
